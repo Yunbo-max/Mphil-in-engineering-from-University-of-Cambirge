@@ -13,9 +13,9 @@ days = Annual_production /Capacity_per_day
 
 products_list = [0]*7
 sales=500000*10
-machinecost = 500000
-workingcost = 9.9
-machine_number = 7
+machinecost = 232000
+workingcost = 11
+machine_number = 6
 inventory_cost = 5
 labour_number =3
 workhours = 24
@@ -69,7 +69,7 @@ print(dayslist)
 print((profitslist.index(max(profitslist))+1))
 
 standard_profit = sales - machine_number * machinecost - labour_number * workhours * workingcost- 365/mouldchangingfrequency*5000
-print('the best performance of 7 machine in 3 shifts')
+print('the best performance of 6 machine in 3 shifts')
 print(standard_profit)
 print(days)
 print(Capacity_per_day)
